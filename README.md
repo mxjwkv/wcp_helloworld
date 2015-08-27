@@ -1,2 +1,2 @@
 # wcp_helloworld
-vs2005 console 
+Windows VS2005 console
