@@ -7,4 +7,4 @@
 @echo off
 :::cl -EHsc -MT wcp_helloworld.cpp /O2 /link  ..\libwin\libclass_win32.lib
 ..\..\__incrbuildnum __build_num_release -L
-cl -EHsc -MT wcp_helloworld.cpp /O2
+cl -EHsc -MT wcp_helloworld.cpp /O2 /link  ..\lib\libfunc.lib ..\lib\libclass.lib
