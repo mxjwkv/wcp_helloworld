@@ -3,7 +3,7 @@
 //     Created: 21-AUG-2015
 // Last Update: 26-AUG-2015
 
-#define VER 4
+#define VER 5
 
 #include "stdio.h"
 #include "../wlp_libfunc/libfunc.h"
@@ -23,10 +23,10 @@ int main(int argc, char* argv[])
 
 	printf("wcp_helloworld - Ver %d (%s) Build %d\n", VER, gszBuildType, BUILD_NUM);
 
-    printf("libfunc - lib_test_incr_num(101) = %d\n", lib_test_incr_num(101));
+    printf("wlp_libfunc - lib_test_incr_num(101) = %d\n", lib_test_incr_num(101));
 
     x1.setb(222);
-    printf("libclass - x.display():\n");
+    printf("wlp_libclass - x.display():\n");
     x1.display();
 
     printf("Press ENTER to exit . . .");

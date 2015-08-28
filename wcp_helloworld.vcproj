@@ -62,7 +62,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="../lib/libfuncD.lib ../lib/libclassD.lib"
+				AdditionalDependencies="../lib/wlp_libfuncD.lib ../lib/wlp_libclassD.lib"
 				LinkIncremental="2"
 				GenerateDebugInformation="true"
 				SubSystem="1"
@@ -139,7 +139,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="../lib/libfunc.lib ../lib/libclass.lib"
+				AdditionalDependencies="../lib/wlp_libfunc.lib ../lib/wlp_libclass.lib"
 				LinkIncremental="1"
 				GenerateDebugInformation="true"
 				SubSystem="1"
