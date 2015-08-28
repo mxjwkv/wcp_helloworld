@@ -3,7 +3,7 @@
 //     Created: 21-AUG-2015 - sds
 // Last Update: 26-AUG-2015
 
-#define VER 3
+#define VER 4
 
 #include "stdio.h"
 #include "../wlp_libfunc/libfunc.h"
@@ -21,7 +21,7 @@ int main(int argc, char* argv[])
 {
     x x1(100, 200); // create object x1
 
-	printf("w_helloworld - Ver %d (%s) Build %d\n", VER, gszBuildType, BUILD_NUM);
+	printf("wcp_helloworld - Ver %d (%s) Build %d\n", VER, gszBuildType, BUILD_NUM);
 
     printf("libfunc - lib_test_incr_num(101) = %d\n", lib_test_incr_num(101));
 
