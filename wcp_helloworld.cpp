@@ -1,6 +1,6 @@
 // wcp_helloworld.cpp
 //
-//     Created: 21-AUG-2015 - sds
+//     Created: 21-AUG-2015
 // Last Update: 26-AUG-2015
 
 #define VER 4
